@@ -1,0 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+tr:nth-of-type(odd) td:nth-of-type(even), 
+tr:nth-of-type(even) td:nth-of-type(odd) {
+  background-color: gray;
+}
